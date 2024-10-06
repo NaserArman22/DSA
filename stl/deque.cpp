@@ -18,8 +18,8 @@ void learnDq()
  {
     cout<<it<< " ";
  }
- dq.back();
- dq.front();
+ d.back();
+ d.front();
 }
 int main()
 {

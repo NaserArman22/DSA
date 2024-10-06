@@ -13,8 +13,8 @@ void learnVector()
     vector<pair<int,string>>v1;
     v1.push_back({3,"learn"});
     v1.emplace_back(5,"Practice");
-    //accesing pair in vector
-    cout<<v1[1].second<<endl;
+  
+    cout<<v1[1].second<<endl;  //accesing pair in vector
 
     //insert also can be done with Loop
     //insert at begining
@@ -22,6 +22,7 @@ void learnVector()
     v.insert(v.begin(),5);
     //inserting in any position
     v.insert(v.begin()+2,3,50);
+    cout<<v[1];
    cout << "The first element is: " << v[0] << endl;
     cout << "Erasing the second element" << endl;
     v.erase(v.begin()+1);//Erase
